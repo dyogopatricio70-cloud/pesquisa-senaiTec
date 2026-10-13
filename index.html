@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pesquisa SenaiTec</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Pesquisa SenaiTec</h1>
+    </header>
+    <section>
+        <form action="" method="get" >
+            <fieldset>
+            <legend>dados pessoais</legend>
+            <label for="username">nome:</label>
+            <input type="text" name="username" id="username" required>
+            <br>
+            <label for="userage">idade:</label>
+            <input type="number" name="userage" id="userage"required min="12" max="100">  
+
+             <br>
+            <label for="userbirthdate">data de nascimento</label>
+            <input type="date" name="userbirthdate" id="userbirthdate">  
+            <br>
+             
+            <label for="useremail">email</label>
+            <input type="email" name="useremail" id="useremail"required>  
+            <br>
+            <label for="userphone">telefone</label>
+            <input type="tel" name="userphone" id="userphone" pattern="[0-9]{11}" placeholder="219832474" >  
+            <br>
+             
+             <label for="userimage">upload da foto</label>
+            <input type="file" name="userimage" id="userimage">  
+            <br>
+
+
+            </fieldset>
+            <button type="submit">Enviar</button >
+        </form>
+            
+        </section>
+        
+        
+        
+    </body>
+    </html>
