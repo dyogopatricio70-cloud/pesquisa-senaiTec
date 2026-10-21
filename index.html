@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <title>Pesquisa SenaiTec</title>
-    
+     <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
 </head>
 <body>
     <main>
@@ -41,11 +41,117 @@
 
 
             </fieldset>
+
+            <fieldset>
+              <legend>perfil</legend>
+               <p>gênero</p>
+                  <br>
+             <input type="radio" name="usergender" id="usergender1" value="masculino">
+              <label for="usergender1">masculino</label>
+               <br>
+
+             <input type="radio" name="usergender" id="usergender2" value="feminino">
+              <label for="usergender2">feminino</label>
+              <br>
+
+              <input type="radio" name="usergender" id="usergender3" value="outro">
+              <label for="usergender3">prefiro não informar</label>
+               <br>
+
+                <label for="usermaritalstatus">Estado civil</label>
+                
+                <select name="usermaritalstatus" id="usermaritalstatus">
+                <option value="">selecione</option>
+                <option value="solteiro">solteiro(a)</option>
+                <option value="casado">casado(a)</option>
+                <option value="divorciado">divorciado(a)</option>
+                <option value="viuvo">viuvo(a)</option>
+                <option value="uniaoestavel">uniaoestavel(a)</option>
+                 
+
+                
+                
+              
+             </select>
+              <label for="useruf">Estado</label>
+                <select name="useruf" id="useruf">
+                <option value="">selecione</option>
+                <option value="Acre">AC</option>
+                <option value="Alagoas">AL</op ALtion>
+                <option value="Amapá">AP</option>
+                <option value="Amazamonas">AM</option>
+                <option value="Bahia ">BA</option>
+                <option value="Ceará">CE</option>
+                <option value="Distrito Federal">DF</option>
+                <option value="Espírito Santo">ES</option>
+                <option value="Goiás"> GO</option>
+                <option value="Maranhão">MA</option>
+                <option value="Mato Grosso">MT</option>
+                <option value="Mato Grosso do Sul">MS</option>
+                <option value="Minas Gerais">MG</option>
+                <option value="Pará">PA</Paráoption>
+                <option value="Paraíba">PB</option>
+                <option value="Paraná">PR</option>
+                <option value="Pernambuco">PE</option>
+                <option value="Piauí">PI</option>
+                <option value="Rio de Janeiro">RJ</option>
+                <option value="Rio Grande do Norte">RN</option>
+                <option value="Rio Grande do Sul">RS</option>
+                <option value="Rondônia">RO</option>
+                <option value="Roraima">RR</option>
+                <option value="Santa Catarina">SC</option>
+                <option value="São Paulo">SP</option>
+                <option value="Sergipe">SE</option>
+                <option value="Tocantins">TO</option>
+                </select>
+
+                <label for="usercity">cidade</label>
+                <input type="text" name="usercity" id="usercity" placeholder="fortaleza"> 
+
+            </fieldset>  
+  
+            
+           <fieldset>
+             <legend>Hébitos</legend>
+
+            <p>redes sociais</p>
+              <input type="checkbox" name="usersocial" id="usersocial" value="instagram" >
+              <label for="usersocial">instagram</label>
+              
+              <br>
+              <input type="checkbox" name="usersocial2" id="usersocial2" value="facebook">
+              <label for="usersocial2">facebook</label>
+              
+              <br>
+              <input type="checkbox" name="usersocial3" id="usersocial3" value="tiktok">
+              <label for="usersocial3">tiktok</label>
+               <br>
+              <label for="usermusicstyle">estilo musical</label>
+              <input type="text" name="usermusicstyle" id="usermusicstyle" list="usermusicstyles">
+              <datalist id="usermusicstyles">
+                <option value="rock"></option>
+                <option value="pop"></option>
+                <option value="sertanejo"></option>
+                <option value="funk"></option>
+                <option value="pagode"></option>
+                <option value="forró"></option>
+                
+              </datalist>
+            
+               <label for="">cor favorita</label>
+               <input type="color" name="userFavoriteColor" id="userFavoriteColor">
+               
+
+
+
+           </fieldset>
+              
+
             <button type="submit">Enviar</button >
         </form>
             
         </section>
-        
+          
         
         </main>
     </body>

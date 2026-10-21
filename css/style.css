@@ -52,7 +52,7 @@ legend {
 
 }
 
-input {
+input, select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -60,4 +60,15 @@ input {
     border-radius: 5px;
 
 
+}
+
+input[type="radio"]{ 
+    width: auto;
+}
+
+p {
+    margin-bottom: 15px;
+    
+}input[type="checkbox"] {
+    width: auto;
 }
