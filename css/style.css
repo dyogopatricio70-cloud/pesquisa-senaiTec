@@ -8,6 +8,7 @@
 
 body {
     background-color: #e7e2e2;
+   
 }
 
 
@@ -52,7 +53,7 @@ legend {
 
 }
 
-input, select {
+input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -73,7 +74,15 @@ input[type="color"] {
 }
 p {
     margin-bottom: 15px;
-    
-}input[type="checkbox"] {
+    font-weight: bold;
+}
+input[type="checkbox"] {
     width: auto;
+
+}
+
+textarea{
+    min-height: 100px;
+    
+    
 }
