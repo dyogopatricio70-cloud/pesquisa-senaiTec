@@ -66,6 +66,11 @@ input[type="radio"]{
     width: auto;
 }
 
+input[type="color"] {
+
+  width: 40px;
+  padding: 0 5px;
+}
 p {
     margin-bottom: 15px;
     
